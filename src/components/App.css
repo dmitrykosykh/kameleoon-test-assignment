@@ -1,0 +1,11 @@
+.app {
+  max-width: 800px;
+  width: 800px;
+  background-color: #FBF8F5;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.block__sortable-table {
+  margin-top: 15px;
+}

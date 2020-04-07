@@ -1,0 +1,150 @@
+.search-component {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-image: url(10e07f0d708a4a3602a66faad85d2cda.svg);
+  background-size: 22px 22px;
+}
+
+.sortable-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.sortable-table-header {
+  display: flex;
+  flex-direction: row;
+  color: #008736;
+  font-style: italic;
+  background-color: #FFFFFF;
+  padding: 15px;
+  height: 17px;
+}
+
+.sortable-table-header__tool-name {
+  flex-basis: 50%;
+}
+
+.sortable-table-header__used-on {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.sortable-table-header__type {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.sortable-table-header__status {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.sortable-table__tool-item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #FFFFFF;
+  border-top: 1px solid #D7E1E9;
+}
+
+.sortable-table__tool-item__name {
+  flex-basis: 50%;
+}
+
+.sortable-table__tool-item__sites {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.sortable-table__tool-item__type {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+  color: #FF7A2F;
+}
+
+.sortable-table__tool-item__status {
+  flex-basis: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.tool-item__status-enable {
+  color: #FFFFFF;
+  background-color: #008e76;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+.tool-item__status-disable {
+  color: #FFFFFF;
+  background-color: #757575;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+}
+
+.tool-name__arrows {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7px;
+  color: #cfcfcf;
+}
+
+.tool-name {
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+}
+
+.tool-name:hover {
+  cursor: pointer;
+}
+
+.fa-caret-up {
+  position: relative;
+  top: -3px;
+}
+
+.fa-caret-down {
+  position: relative;
+  top: -9px;
+}
+
+.active {
+  color: #008736;
+}
+
+.sortable-table__tool-item--active {
+  box-shadow: 2px 2px 22px 0px rgba(0, 0, 0, 0.36);
+}
+.app {
+  max-width: 800px;
+  width: 800px;
+  background-color: #FBF8F5;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.block__sortable-table {
+  margin-top: 15px;
+}

@@ -1,0 +1,13 @@
+.search-component {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-image: url(./search-solid.svg);
+  background-size: 22px 22px;
+}
